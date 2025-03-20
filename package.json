@@ -1,0 +1,23 @@
+{
+  "name": "mc-server-util",
+  "version": "1.0.0",
+  "description": "A modern Node.js library for interacting with Minecraft Java Edition servers. Query server status and execute RCON commands with ease.",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src"
+  ],
+  "keywords": [],
+  "author": "Alex Mashkovtsev <mashkovtsev.lx@gmail.com>",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "npm-check-updates": "^17.1.15"
+  }
+}
