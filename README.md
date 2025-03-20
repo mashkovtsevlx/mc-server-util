@@ -14,14 +14,14 @@ A modern Node.js library for interacting with Minecraft Java Edition servers. Qu
 ## Installation 📦
 
 ```bash
-npm install mc-server-utils
+npm install mc-server-util
 ```
 
 ## Usage Examples 🚀
 
 ### Basic Server Status Check
 ```javascript
-import { getMinecraftServerStatus } from 'mc-server-utils';
+import { getMinecraftServerStatus } from 'mc-server-util';
 
 try {
   const status = await getMinecraftServerStatus('mc.example.com');
@@ -34,7 +34,7 @@ try {
 
 ### Execute RCON Command
 ```javascript
-import { sendRconCommand } from 'mc-server-utils';
+import { sendRconCommand } from 'mc-server-util';
 
 const response = await sendRconCommand(
   'mc.example.com',
@@ -47,7 +47,7 @@ console.log('Command response:', response);
 
 ### Broadcast Server Message
 ```javascript
-import { sendRconSayCommand } from 'mc-server-utils';
+import { sendRconSayCommand } from 'mc-server-util';
 
 await sendRconSayCommand(
   'mc.example.com',
